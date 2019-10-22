@@ -15,7 +15,7 @@ public class TestGet implements JavaSamplerClient {
     }
 
     public void teardownTest(JavaSamplerContext javaSamplerContext) {
-
+        System.out.println("Test teardown");
     }
 
     public Arguments getDefaultParameters() {
