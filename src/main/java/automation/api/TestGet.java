@@ -7,7 +7,7 @@ import org.apache.jmeter.samplers.SampleResult;
 
 public class TestGet implements JavaSamplerClient {
     public void setupTest(JavaSamplerContext javaSamplerContext) {
-
+        System.out.println("Test setup");
     }
 
     public SampleResult runTest(JavaSamplerContext javaSamplerContext) {
